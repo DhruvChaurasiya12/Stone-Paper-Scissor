@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="display-flex">
+        Stone Paper Scissor!
+    </header>
+    
+    <div class=" display-flex" id="game-content">
+        <div class="display-flex" id="game-images">
+            <div class="choices display-flex" id="stone">
+                <img src="rock.png" alt="">
+            </div>
+            <div class="choices display-flex" id="paper">
+                <img src="paper.png" alt="">
+            </div>
+            <div class="choices display-flex" id="scissors">
+                <img src="scissors.png" alt="">
+            </div>
+        </div>
+    
+        <div class="score-card display-flex">
+            <div>
+                <div class="score-owner">Your</div>
+                <div id="user-score">0</div>
+            </div>
+            <div>
+                <div class="score-owner">Comp</div>
+                <div id="comp-score">0</div>
+            </div>
+        </div>
+
+        <div id="result" class="display-flex">Play your move!</div>
+
+        <div class="restart-end-button display-flex">
+            <button id="restart-button">Restart Game</button>
+            <button>
+                <a href="index_page.html">End Game</a>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
